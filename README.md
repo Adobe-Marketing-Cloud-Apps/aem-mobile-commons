@@ -29,6 +29,10 @@ mvn -Dcrx.host=otherhost -Dcrx.port=5502 <goals>
 
 ## We Pharma Sales
 
+**You need to have the we-healthcare-sales package installed before proceeding.**
+
+ It can be obtained following the AEM Mobile [End to End Demo](https://internal.adobedemo.com/content/demo-hub/en/demos/external/wesellpharma-demo.html)
+
 After installing the code, please install the aem-mobile-commons-we-pharma-sales-<version>.zip package.
 This pacakge will give you some sample page components and templates to be used with the we-healthcare-sales project.
 
