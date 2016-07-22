@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="AEM Mobile Commons - Video"
     sling:resourceSuperType="foundation/components/video"
-    componentGroup="IS"/>
+    componentGroup="AEM Mobile Commons"/>

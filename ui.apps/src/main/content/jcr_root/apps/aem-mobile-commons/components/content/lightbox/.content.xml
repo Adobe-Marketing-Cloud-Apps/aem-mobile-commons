@@ -4,4 +4,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="AEM Mobile Commons - Lightbox"
     sling:resourceSuperType="foundation/components/image"
-    componentGroup="IS"/>
+    componentGroup="AEM Mobile Commons"/>
