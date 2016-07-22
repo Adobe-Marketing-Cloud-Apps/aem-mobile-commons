@@ -27,4 +27,10 @@ Once the working copy is created, you can use the normal ``vlt up`` and ``vlt ci
 The CRX host and port can be specified on the command line with:
 mvn -Dcrx.host=otherhost -Dcrx.port=5502 <goals>
 
+## We Pharma Sales
+
+After installing the code, please install the aem-mobile-commons-we-pharma-sales-<version>.zip package.
+This pacakge will give you some sample page components and templates to be used with the we-healthcare-sales project.
+
+To use, create a page in AEM with the template "weSellPharma Test Latest Innovations"
 
