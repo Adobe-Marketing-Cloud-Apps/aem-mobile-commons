@@ -27,6 +27,10 @@ Once the working copy is created, you can use the normal ``vlt up`` and ``vlt ci
 The CRX host and port can be specified on the command line with:
 mvn -Dcrx.host=otherhost -Dcrx.port=5502 <goals>
 
+## Content Sync Configuration
+
+Please make sure you copy the nodes under /etc/contentsync/tempates/aem-mobile-commons under your contentsync template.
+
 ## We Pharma Sales
 
 **You need to have the we-healthcare-sales package installed before proceeding.**

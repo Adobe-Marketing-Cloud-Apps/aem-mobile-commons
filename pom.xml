@@ -11,8 +11,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>aem.mobile.commons AEM Mobile Project - Reactor Project</name>
-    <description>Maven Multimodule project for aem.mobile.commons AEM Mobile Project.</description>
+    <name>aem.mobile.commons - Reactor Project</name>
+    <description>Maven Multimodule project for aem.mobile.commons Project.</description>
 
     <prerequisites>
         <maven>3.0.2</maven>
