@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <referencedassets
+        jcr:primaryType="nt:unstructured"
+        path="/content/mobileapps/we-healthcare-sales"
+        propertyName="fileReference"
+        resourceTypes="[aem-mobile-commons/components/content/video]"
+        type="referencedassets"/>
+</jcr:root>
