@@ -3,7 +3,7 @@
 <%@ page import="com.day.cq.wcm.foundation.Placeholder" %>
 <%--
 
-  IS - Slideshow component.
+  Slideshow component.
 
   Slideshow component. It uses the x slideshow plugin. The documentation for the plugin is at x.
 

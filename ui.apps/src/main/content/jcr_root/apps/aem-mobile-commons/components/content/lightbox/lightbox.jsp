@@ -3,7 +3,7 @@
 <%@ page import="com.day.cq.wcm.foundation.Placeholder" %>
 <%--
 
-  IS - Lightbox component.
+ Lightbox component.
 
   Lightbox component. It uses the x lightbox plugin. The documentation for the plugin is at x.
 
@@ -24,16 +24,14 @@
 			image.addCssClass(DropTarget.CSS_CLASS_PREFIX + "image");
 			image.loadStyleData(currentStyle);
 			image.setSelector(".img"); // use image script
-			//image.setDoctype(Doctype.fromRequest(request));
+
 			// add design information if not default (i.e. for reference paras)
 			if (!currentDesign.equals(resourceDesign)) {
 				image.setSuffix(currentDesign.getId());
 			}
-
-			String href = image.getSrc();
 			String title = image.getTitle();
 			%>
-<a class="image-popup-no-margins" href="<%=href%>" title="<%=title%>">
+<a class="image-popup-no-margins" title="<%=title%>" id="image-popup">
 	<%
 		image.draw( out );
 	%>

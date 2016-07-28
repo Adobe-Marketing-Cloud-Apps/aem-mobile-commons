@@ -18,6 +18,20 @@ $(document).ready(function() {
         }
     });*/
 
+    var popup = document.getElementById( "image-popup" );
+    if( popup ){
+        var imageTag = popup.getElementsByTagName( "img" )[0];
+
+        if( imageTag ){
+            var src = imageTag.getAttribute( "src" );
+
+            if( src ){
+                //console.log( "src: " + src + popup.getAttribute( "id") );
+                popup.setAttribute( "href", src );
+            }
+        }
+    }
+
     $('.image-popup-no-margins').magnificPopup({
         type: 'image',
         closeOnContentClick: true,

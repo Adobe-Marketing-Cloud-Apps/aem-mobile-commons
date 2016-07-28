@@ -1,8 +1,6 @@
 <%@ page import="org.apache.commons.lang3.StringUtils" %><%--
 
-  IS - Video component.
-
-  
+  Video component.
 
 --%><%
 %><%@include file="/libs/foundation/global.jsp"%><%
