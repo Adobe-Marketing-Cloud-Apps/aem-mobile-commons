@@ -31,6 +31,10 @@ mvn -Dcrx.host=otherhost -Dcrx.port=5502 <goals>
 
 Please make sure you copy the nodes under /etc/contentsync/tempates/aem-mobile-commons under your contentsync template.
 
+## ACS AEM Commons
+
+There is code that depends uses ACS AEM Commons APIs and widgets.
+
 ## We Pharma Sales
 
 **You need to have the we-healthcare-sales package installed before proceeding.**
