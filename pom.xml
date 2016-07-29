@@ -136,8 +136,8 @@
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
                 <version>6.2.0</version>
-                <scope>provided</scope>
-                <classifier>obfuscated-apis</classifier>
+                <scope>system</scope>
+                <systemPath>${project.basedir}/dependencies/cq-quickstart-6.2.0-apis.jar</systemPath>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -185,12 +185,24 @@
             <url>https://repo.adobe.com/nexus/content/groups/public/</url>
             <layout>default</layout>
         </repository>
+        <repository>
+            <id>adobe-internal</id>
+            <name>Adobe Internal Repo</name>
+            <url>https://artifactory.corp.adobe.com/artifactory/maven-aem-dev</url>
+            <layout>default</layout>
+        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>adobe</id>
             <name>Adobe Public Repository</name>
             <url>https://repo.adobe.com/nexus/content/groups/public/</url>
+            <layout>default</layout>
+        </pluginRepository>
+        <pluginRepository>
+            <id>adobe-internal</id>
+            <name>Adobe Internal Repo</name>
+            <url>https://artifactory.corp.adobe.com/artifactory/maven-aem-dev</url>
             <layout>default</layout>
         </pluginRepository>
     </pluginRepositories>
