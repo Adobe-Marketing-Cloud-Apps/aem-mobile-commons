@@ -5,7 +5,7 @@
 
  Lightbox component.
 
-  Lightbox component. It uses the x lightbox plugin. The documentation for the plugin is at x.
+  Lightbox component. It uses the magnific popup lightbox plugin. The documentation for the plugin is at http://dimsemenov.com/plugins/magnific-popup/.
 
   The plugin js and css files are in the clientlib named plugin.js and plugin.css respectively.
 
