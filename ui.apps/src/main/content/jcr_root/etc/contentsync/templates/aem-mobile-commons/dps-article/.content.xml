@@ -3,7 +3,7 @@
     jcr:primaryType="nt:unstructured">
     <referencedassets
         jcr:primaryType="nt:unstructured"
-        path="/content/mobileapps/we-healthcare-sales"
+        path="/content/mobileapps"
         propertyName="fileReference"
         resourceTypes="[aem-mobile-commons/components/content/video]"
         type="referencedassets"/>
