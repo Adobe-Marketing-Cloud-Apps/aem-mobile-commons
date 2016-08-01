@@ -2,7 +2,6 @@ package com.aem.mobile.commons.core.impl.contentsync;
 
 import com.day.cq.commons.jcr.JcrUtil;
 import com.day.cq.contentsync.config.ConfigEntry;
-import com.day.cq.contentsync.handler.AbstractDefaultContentUpdateHandler;
 import com.day.cq.contentsync.handler.ContentUpdateHandler;
 import com.day.cq.dam.api.Asset;
 import com.day.cq.dam.api.Rendition;

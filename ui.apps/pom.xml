@@ -68,9 +68,7 @@
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>uber-jar</artifactId>
-            <version>6.2.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/../dependencies/cq-quickstart-6.2.0-apis.jar</systemPath>
+            <classifier>obfuscated-apis</classifier>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
