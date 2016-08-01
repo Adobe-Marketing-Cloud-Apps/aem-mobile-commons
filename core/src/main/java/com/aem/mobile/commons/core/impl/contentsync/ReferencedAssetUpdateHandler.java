@@ -35,6 +35,8 @@ import java.util.*;
  */
 
 @Component(metatype = false, factory = "com.day.cq.contentsync.handler.ContentUpdateHandler/referencedassets")
+
+@SuppressWarnings("unused")
 public class ReferencedAssetUpdateHandler implements ContentUpdateHandler {
 
     private static final Logger log = LoggerFactory.getLogger(ReferencedAssetUpdateHandler.class);
