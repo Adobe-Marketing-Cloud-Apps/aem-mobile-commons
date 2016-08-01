@@ -22,6 +22,8 @@ import java.util.Map;
 
 /**
  * Created by kmall on 7/28/16
+ *
+ * TODO: Convert to use AbstractSlingResourceUpdateHandler. But this would require a dependency on the unobfuscated jar.
  */
 @Component(
         label = "AEM Mobile Commons - Assets Path Rewriter Factory",

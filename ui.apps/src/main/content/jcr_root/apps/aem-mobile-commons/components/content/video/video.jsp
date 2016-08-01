@@ -2,6 +2,8 @@
 
   Video component.
 
+  TODO: convert to a Sightly AKA HTL script
+
 --%><%
 %><%@include file="/libs/foundation/global.jsp"%><%
 %><%@page session="false" %><%

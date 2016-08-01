@@ -9,6 +9,8 @@
 
   The plugin js and css files are in the clientlib named plugin.js and plugin.css respectively.
 
+  TODO: convert to a Sightly AKA HTL script
+
 --%><%
 %><%@include file="/libs/foundation/global.jsp"%><%
 %><%@page session="false" %><%
