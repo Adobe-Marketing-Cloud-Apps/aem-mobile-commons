@@ -66,7 +66,7 @@ public class ReferencedAssetUpdateHandler implements ContentUpdateHandler {
             ValueMap configOptions = ResourceUtil.getValueMap(resolver.getResource(configEntry.getPath()));
 
             String[] resourceTypes = configOptions.get(RT_CONFIG_PROPERTY, new String[]{});
-            String propertyName = configOptions.get( PN_CONFIG_PROPERTY, new String() );
+            String propertyName = configOptions.get(PN_CONFIG_PROPERTY, new String());
             String[] renditionNames = configOptions.get(RENDITIONS_CONFIG_PROPERTY, new String[]{});
 
             if( resourceTypes.length > 0 && StringUtils.isNotEmpty( propertyName ) ){
