@@ -3,6 +3,7 @@
   Video component.
 
   TODO: convert to a Sightly AKA HTL script
+  TODO: update script to match the OOTB mobile video component to use the mp4 rendition.
 
 --%><%
 %><%@include file="/libs/foundation/global.jsp"%><%

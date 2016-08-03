@@ -33,6 +33,8 @@ import java.util.*;
 /**
  * Created by kmall on 7/21/16
  * TODO: update to use reference provider aka referenceProvider.getReferences(currentPage.getContentResource()); instead of the query.
+ * TODO: remove deprecated class JcrResourceResolverFactory
+ * TODO: Convert to use AbstractSlingResourceUpdateHandler. But this would require a dependency on the unobfuscated jar.
  */
 
 @Component(metatype = false, factory = "com.day.cq.contentsync.handler.ContentUpdateHandler/referencedassets")
