@@ -5,6 +5,7 @@
         jcr:primaryType="nt:unstructured"
         path="/content/mobileapps"
         propertyName="fileReference"
+        renditions="[cq5dam.thumbnail.319.319.png,cq5dam.video.iehq.mp4]"
         resourceTypes="[aem-mobile-commons/components/content/video]"
         type="referencedassets"/>
 </jcr:root>

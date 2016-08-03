@@ -43,12 +43,12 @@ import java.util.Map;
 @SuppressWarnings("unused")
 public class AssetsPathRewriterTransformerFactory implements TransformerFactory {
 
-    @Property(value = {"source:src"} )
+    @Property(value = {"source:src", "video:poster"} )
     private static final String PROPERTY_ASSETS_MAPPING = "mapping.assets";
 
     private static final Logger log = LoggerFactory.getLogger(AssetsPathRewriterTransformerFactory.class);
 
-    private static final String[] DEFAULT_ATTRIBUTES = new String[]{"source:src"};
+    private static final String[] DEFAULT_ATTRIBUTES = new String[]{"source:src", "video:poster"};
     private static final String DAM_PATH_PREFIX = "/content/dam";
 
     private Map<String, String[]> attributes;
