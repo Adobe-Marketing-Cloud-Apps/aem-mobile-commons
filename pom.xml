@@ -6,13 +6,13 @@
     <!-- P A R E N T P R O J E C T D E S C R I P T I O N -->
     <!-- ====================================================================== -->
 
-    <groupId>com.aem.mobile.commons</groupId>
+    <groupId>com.adobe.aem.mobile.commons</groupId>
     <artifactId>aem-mobile-commons</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>aem.mobile.commons - Reactor Project</name>
-    <description>Maven Multimodule project for aem.mobile.commons Project.</description>
+    <name>AEM Mobile Commons - Reactor Project</name>
+    <description>Maven Multimodule project for AEM Mobile Commons Project.</description>
 
     <prerequisites>
         <maven>3.0.2</maven>
@@ -185,24 +185,12 @@
             <url>https://repo.adobe.com/nexus/content/groups/public/</url>
             <layout>default</layout>
         </repository>
-        <repository>
-            <id>adobe-internal</id>
-            <name>Adobe Internal Repo</name>
-            <url>https://artifactory.corp.adobe.com/artifactory/maven-aem-dev</url>
-            <layout>default</layout>
-        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>adobe</id>
             <name>Adobe Public Repository</name>
             <url>https://repo.adobe.com/nexus/content/groups/public/</url>
-            <layout>default</layout>
-        </pluginRepository>
-        <pluginRepository>
-            <id>adobe-internal</id>
-            <name>Adobe Internal Repo</name>
-            <url>https://artifactory.corp.adobe.com/artifactory/maven-aem-dev</url>
             <layout>default</layout>
         </pluginRepository>
     </pluginRepositories>
@@ -486,7 +474,7 @@
 
     </profiles>
     <modules>
-        <module>core</module>
-        <module>ui.apps</module>
+        <module>bundles/core</module>
+        <module>content</module>
     </modules>
 </project>
