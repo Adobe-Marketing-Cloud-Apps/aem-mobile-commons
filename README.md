@@ -1,5 +1,7 @@
 # AEM Mobile Commons Project
 
+This project contains a common set of components and services than can be installed to AEM in order to be used with articel authoring for AEM Mobile.
+
 ## Dependencies
 
 - [ACS AEM Commons (v. 3.0.2)](https://adobe-consulting-services.github.io/acs-aem-commons)
